@@ -77,7 +77,7 @@ jobs:
 
 
 workflows:
-  say-hello:
+  say-True:
     jobs:
       - build-frontend
       - build-backend
