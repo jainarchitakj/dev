@@ -33,7 +33,9 @@ jobs:
             cd backend
             npm install
             npm update
+            npm audit
             npm run build
+          
           
       - save_cache:
           paths: [backend/node_modules]
